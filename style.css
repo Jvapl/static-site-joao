@@ -1,31 +1,50 @@
-body {
-    margin: 44px 150px;
-    height: 100%;
-    color: #020E35;
-    font-size: 18px;
-    text-decoration: none;
-    font-family: "Merriweather";
-    
+body{
+    margin: 0; 
+    padding: 0;
+   list-style: none;
+    color : #020E35;
+
 }
 
-.nav-links {
-  list-style: none;
-  display: flex;
-  gap: 30px;
-  margin-top: 10px;
+    a {
+        text-decoration: none;
+        color : #020E35;
+        list-style: none;
+        font-family: "Merriweather";
+}
+    h1 {
+        font-size: 18px;
+        color : #020E35;
+        list-style: none;
+
+}
+    .logozzeb {
+        color: #ff5878;
+        font-size: 28px;
+}
+    .navbar {
+        height: 84px;
+        width: 100%;
+        background-color: #FFFFFF;
+        box-shadow:  0 6px 10px #00000014;
+        padding: 8px 150px 8px 150px;
+        display: flex;
+}
+    .Logo {
+        display: flex;
+        gap: 4px;
+}
+    .nav-links {
+        gap : 60px;
+        display: flex;
+        justify-content: right;
+        font-size: 14px;
+        align-items: center;
+
 }
 
-.nav-links li a {
-    color: #020E35;
-    text-decoration: none;
-  transition: color 0.3s;
+    .padding {
+        padding: 100px 150px 100px 150px;
 }
-
-
-.navbar-blur {
-  color: #FFFFFF;
-  margin-top: 52px;
-  width: 100%;
-  height: 5px;
-  box-shadow: 0 4px 6px #00000014;
-  }
+    .buttons {
+}
