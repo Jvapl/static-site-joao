@@ -1,50 +1,77 @@
-body{
-    margin: 0; 
+body {
+    margin: 0;
     padding: 0;
-   list-style: none;
-    color : #020E35;
-
+    list-style: none;
+    color: #020E35;
+    font-style: bold;
 }
 
-    a {
-        text-decoration: none;
-        color : #020E35;
-        list-style: none;
-        font-family: "Merriweather";
-}
-    h1 {
-        font-size: 18px;
-        color : #020E35;
-        list-style: none;
-
-}
-    .logozzeb {
-        color: #ff5878;
-        font-size: 28px;
-}
-    .navbar {
-        height: 84px;
-        width: 100%;
-        background-color: #FFFFFF;
-        box-shadow:  0 6px 10px #00000014;
-        padding: 8px 150px 8px 150px;
-        display: flex;
-}
-    .Logo {
-        display: flex;
-        gap: 4px;
-}
-    .nav-links {
-        gap : 60px;
-        display: flex;
-        justify-content: right;
-        font-size: 14px;
-        align-items: center;
-
+a {
+    text-decoration: none;
+    color: #020E35;
+    list-style: none;
+    font-family: "Merriweather";
+    font-style: bold;
 }
 
-    .padding {
-        padding: 100px 150px 100px 150px;
+h1 {
+    font-size: 18px;
+    color: #020E35;
+    list-style: none;
 }
-    .buttons {
+
+.logozzeb {
+    color: #ff5878;
+    font-size: 28px;
+    margin : 16.5px 0px 0px 0px ;
+}
+
+.navbar {
+    height: 68px;
+    background-color: #FFFFFF;
+    box-shadow: 0 6px 10px #00000014;
+    padding: 8px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.Logo {
+    display: flex;
+    gap: 4px;
+}
+
+.nav-links {
+    gap: 60px;
+    display: flex;
+    font-size: 16px;
+}
+
+.menu-elements{
+    display: flex;
+    align-items: center;
+    gap: 60px;
+
+}
+.menu-elements a:hover {
+    color: #ff5878;
+    text-decoration: underline;
+    text-decoration-color:#ff5878;
+    text-decoration-thickness: 3px;
+    text-underline-offset: 8px;
+}
+
+.padding {
+    padding: 100px 150px 100px 150px;
+}
+
+.buttons {
+    background-color: #020E35;
+    color: white;
+    border: none;
+    border-radius: 0;
+    cursor: pointer;
+    padding:  24px 40px;
+    font-family: Merriweather, serif; 
+    font-size : 16px;
+    
 }
