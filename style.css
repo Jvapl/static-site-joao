@@ -1,29 +1,34 @@
-body {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    color: #020E35;
-    font-style: bold;
+body{
+    margin: 0px ;
 }
 
-a {
-    text-decoration: none;
-    color: #020E35;
-    list-style: none;
-    font-family: "Merriweather";
-    font-style: bold;
+ h1 {
+    font-weight: 900;
+    font-size: 76px;
+    line-height: 110px;
+
+
+
 }
 
-h1 {
-    font-size: 18px;
-    color: #020E35;
-    list-style: none;
+a, p, h1, h2, h3, h4, h5, h6 {
+  text-decoration: none;
+  color: #020E35;
+  list-style: none;
+  margin: 0px;
 }
+
+
 
 .logozzeb {
     color: #ff5878;
     font-size: 28px;
     margin : 16.5px 0px 0px 0px ;
+}
+
+.Logo {
+    display: flex;
+    gap: 10px;
 }
 
 .navbar {
@@ -33,12 +38,7 @@ h1 {
     padding: 8px 150px;
     display: flex;
     justify-content: space-between;
-}
-
-.Logo {
-    display: flex;
-    gap: 4px;
-}
+}    
 
 .nav-links {
     gap: 60px;
@@ -52,8 +52,9 @@ h1 {
     gap: 60px;
 
 }
+
 .menu-elements a:hover {
-    color: #ff5878;
+
     text-decoration: underline;
     text-decoration-color:#ff5878;
     text-decoration-thickness: 3px;
@@ -74,4 +75,58 @@ h1 {
     font-family: Merriweather, serif; 
     font-size : 16px;
     
+}
+
+.home-texts {
+display: flex;
+flex-direction: column;
+gap: 56px;
+width: 575px;
+
+}
+
+.home-content {
+    padding: 300px 150px 200px 150px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.buttonsclass {
+    background-color: #020E35;
+    color: white;
+    border: none;
+    cursor: pointer;
+    padding:  24px 40px;
+    font-family: Merriweather, serif; 
+    font-size : 18px;
+    box-shadow: 0 10px 10px #00000014;
+    width: 197px;
+}
+.fond-rose {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    background-color: #FF5678;
+    color: white;
+}
+.photocafe {
+    border-radius: 200px;
+    color: #ffeef6 20%;
+     
+}
+
+.texthome {
+display: flex;
+
+}
+
+.titres{
+    font-size: 54px;
+    line-height: 62px;
+
+}
+
+.soulignementrose {
+    
+
 }
