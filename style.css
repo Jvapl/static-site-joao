@@ -1,9 +1,8 @@
-body{
-    margin: 0px ;
+body {
+    margin: 0px;
 }
 
- h1 {
-    font-weight: 900;
+h1 {
     font-size: 76px;
     line-height: 110px;
 
@@ -11,19 +10,24 @@ body{
 
 }
 
-a, p, h1, h2, h3, h4, h5, h6 {
-  text-decoration: none;
-  color: #020E35;
-  list-style: none;
-  margin: 0px;
+a, h1, h2, h3, h4, h5, h6 {
+    text-decoration: none;
+    color: #020E35;
+    list-style: none;
+    margin: 0px;
+    font-family: Merriweather;
 }
 
+p {
+  font-size: 18px;
+
+}
 
 
 .logozzeb {
     color: #ff5878;
     font-size: 28px;
-    margin : 16.5px 0px 0px 0px ;
+    margin: 16.5px 0px 0px 0px;
 }
 
 .Logo {
@@ -38,7 +42,7 @@ a, p, h1, h2, h3, h4, h5, h6 {
     padding: 8px 150px;
     display: flex;
     justify-content: space-between;
-}    
+}
 
 .nav-links {
     gap: 60px;
@@ -46,7 +50,7 @@ a, p, h1, h2, h3, h4, h5, h6 {
     font-size: 16px;
 }
 
-.menu-elements{
+.menu-elements {
     display: flex;
     align-items: center;
     gap: 60px;
@@ -56,7 +60,7 @@ a, p, h1, h2, h3, h4, h5, h6 {
 .menu-elements a:hover {
 
     text-decoration: underline;
-    text-decoration-color:#ff5878;
+    text-decoration-color: #ff5878;
     text-decoration-thickness: 3px;
     text-underline-offset: 8px;
 }
@@ -71,17 +75,19 @@ a, p, h1, h2, h3, h4, h5, h6 {
     border: none;
     border-radius: 0;
     cursor: pointer;
-    padding:  24px 40px;
-    font-family: Merriweather, serif; 
-    font-size : 16px;
-    
+    padding: 24px 40px;
+    font-family: Merriweather, serif;
+    font-size: 16px;
+
 }
 
 .home-texts {
-display: flex;
-flex-direction: column;
-gap: 56px;
-width: 575px;
+    display: flex;
+    flex-direction: column;
+    gap: 56px;
+    width: 548px;
+    font-family: Merriweather;
+
 
 }
 
@@ -96,37 +102,100 @@ width: 575px;
     color: white;
     border: none;
     cursor: pointer;
-    padding:  24px 40px;
-    font-family: Merriweather, serif; 
-    font-size : 18px;
-    box-shadow: 0 10px 10px #00000014;
+    padding: 24px 40px;
+    font-family: Merriweather, serif;
+    font-size: 18px;
+    box-shadow: 0 40px 40px #00000034;
     width: 197px;
 }
+
 .fond-rose {
-    margin: 0;
-    padding: 0;
-    display: inline;
+    display: inline-block;
     background-color: #FF5678;
     color: white;
+    line-height: 1;
 }
+
 .photocafe {
     border-radius: 200px;
     color: #ffeef6 20%;
-     
+
 }
 
 .texthome {
-display: flex;
+    display: flex;
 
 }
 
-.titres{
+.titres {
     font-size: 54px;
     line-height: 62px;
+
 
 }
 
 .soulignementrose {
-    
+  position: relative;
+  display: inline-block;
+}
+
+.home-page {
+    justify-content: space-between;
+    display: flex;
+    gap:  511px;
+}
+
+.homepage2 {
+    gap: 60px 60px  
+}
+
+.learn {
+    display: flex;
+    gap: 63px;
+}
+
+.rosederriere {
+  position: absolute;
+  bottom: -2px;
+  left: 4px;
+  width: 423px;
+  height: 29px;
+  background-color: #FF5678;
+  z-index: -1;
+}
+
+.videos {
+    display: flex;
+    width: 212px;
+    flex-direction: row;
+    gap: 10px;
+
+}
+
+
+.videos h3 {
+    align-self:  center;
+}
+
+.triangle-blanc {
+    width: 48px;
+    height: 42px;
+    position: absolute;
+    top: 13px;
+    left: 14px;
+}
+
+.videos-2 {
+    position: relative;
+    display: flex;
+   
+}
+
+.rond-rose {
+  display: block;
+
+}
+
+.Thingsweenjoy {
 
 }
