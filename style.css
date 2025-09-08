@@ -149,12 +149,12 @@ h2 {
     gap: 42px;
 }
 
-.soulignementrose{
+.soulignementrose {
     background-image: linear-gradient(#FF5678, #FF5678);
-background-repeat: no-repeat;
-background-size: 100% 0.9em;
-background-position: 0em 0.7em;
-        padding-right: 10px;
+    background-repeat: no-repeat;
+    background-size: 100% 0.9em;
+    background-position: 0em 0.7em;
+    padding-right: 10px;
 
 }
 
@@ -165,13 +165,14 @@ background-position: 0em 0.7em;
 
 .home-page {
     display: flex;
-    gap: 511px;
+    justify-content: space-between;
 }
 
 .homepage2 {
     display: flex;
     flex-direction: column;
     gap: 60pX;
+    width: 517px;
 
 }
 
@@ -221,21 +222,19 @@ background-position: 0em 0.7em;
     justify-content: space-between;
 }
 
-.weenjoy {
-
-}
+.weenjoy {}
 
 .intengible {
     position: absolute;
     top: 0;
     left: -1px;
     z-index: -1;
-    padding: 1987px 1370px 0px 0px;
+    padding: 1987px 1340px 0px 0px;
 }
 
 .colone1 {
     color: transparent;
-    -webkit-text-stroke: 1px #020E35;
+    -webkit-text-stroke: 1px #626980;
     font-size: 64px;
 
 }
@@ -247,25 +246,67 @@ background-position: 0em 0.7em;
 }
 
 .premmierecolonetexte {
+    display: flex;
     flex-direction: column;
-    justify-content: space-between;
     gap: 40px;
+}
+
+.ligne4 {
+    display: flex;
+    gap: 40px  ;
 }
 
 .textes1colone {
     display: flex;
     flex-direction: column;
-    gap: 40px;
+    gap: 76px;
 }
 
 .textes {
     display: flex;
     flex-direction: column;
     gap: 60px;
-    padding: 83px 0px 0px 0px ;
+    padding: 83px 0px 0px 0px;
 }
 
 .explanationcustomers {
     display: flex;
     justify-content: space-between;
+}
+
+.deuxiemecolone {
+    display: flex;
+    gap:76px;
+
+}
+
+.team-titre {
+    justify-items: center;
+    
+}
+
+.notreteam {
+    grid-column: auto;
+    background-color: aqua;
+    padding: 50px 60px;
+}
+
+.grid {
+   display: grid;
+   grid-template-columns: repeat(3, 519px);
+   grid-template-rows: repeat(2, 519px);
+   gap:15px; 
+
+}
+.teamsection {
+    justify-content: center;
+}
+
+.item {
+    height: 519px;
+    width: 519px;
+    border-radius: 200px;
+    border: 1px #BBBBBB;
+    align-items: center;
+
 }
