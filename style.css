@@ -34,7 +34,6 @@ h2 {
     font-size: 28px;
 
 }
-
 .logozzeb {
     color: #ff5878;
     font-size: 28px;
@@ -155,6 +154,7 @@ h2 {
     background-size: 100% 0.9em;
     background-position: 0em 0.7em;
     padding-right: 10px;
+    display: inline-block; 
 
 }
 
@@ -222,14 +222,13 @@ h2 {
     justify-content: space-between;
 }
 
-.weenjoy {}
-
 .intengible {
     position: absolute;
-    top: 0;
-    left: -1px;
+    top: 0px;
+    left: -110px;
     z-index: -1;
-    padding: 1987px 1340px 0px 0px;
+    padding: 1987px 0px 0px 0px;
+    margin: 0px;
 }
 
 .colone1 {
@@ -237,12 +236,18 @@ h2 {
     -webkit-text-stroke: 1px #626980;
     font-size: 64px;
 
+
+}
+
+.number0 {
+    transform: scaleX(2);
+
 }
 
 .colone {
     padding: 120px 0px 0px 0;
     display: flex;
-    gap: 40px;
+    justify-content: space-between;
 }
 
 .premmierecolonetexte {
@@ -253,13 +258,14 @@ h2 {
 
 .ligne4 {
     display: flex;
+
     gap: 40px  ;
 }
 
 .textes1colone {
     display: flex;
     flex-direction: column;
-    gap: 76px;
+    gap: 40px;
 }
 
 .textes {
@@ -276,7 +282,6 @@ h2 {
 
 .deuxiemecolone {
     display: flex;
-    gap:76px;
 
 }
 
@@ -295,7 +300,9 @@ h2 {
    display: grid;
    grid-template-columns: repeat(3, 519px);
    grid-template-rows: repeat(2, 519px);
-   gap:15px; 
+   gap:61px 32px; 
+   padding: 114px 0 0 0;
+   
 
 }
 .teamsection {
@@ -305,8 +312,12 @@ h2 {
 .item {
     height: 519px;
     width: 519px;
-    border-radius: 200px;
-    border: 1px #BBBBBB;
-    align-items: center;
+    border-radius: 50px;
+    text-align: center;
+    border: 1px solid #BBBBBB;
 
+}
+
+.texteenjoy {
+    gap: 40px;
 }
