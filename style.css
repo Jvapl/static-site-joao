@@ -139,7 +139,6 @@ h2 {
 .titres {
     display: inline;
     font-size: 54px;
-    line-height: 62px;
 }
 
 .titlegaptalent {
@@ -306,18 +305,40 @@ h2 {
 
 }
 .teamsection {
-    justify-content: center;
+    text-align: center;
 }
 
 .item {
     height: 519px;
     width: 519px;
     border-radius: 50px;
-    text-align: center;
     border: 1px solid #BBBBBB;
 
 }
 
 .texteenjoy {
     gap: 40px;
+}
+
+.itemgrid {
+    gap: 40px 0px 0px 0px ;
+    text-align: center;
+    margin-top: 88px;
+}
+
+.soulignementrose2 {
+    padding-right: 4px; 
+    padding-left: 4px;
+}
+
+.previous-work {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    gap: 60px;
+}
+
+.petitmenu {
+    justify-content: space-between;
+    gap: 60px;
 }
