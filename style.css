@@ -34,6 +34,7 @@ h2 {
     font-size: 28px;
 
 }
+
 .logozzeb {
     color: #ff5878;
     font-size: 28px;
@@ -137,7 +138,6 @@ h2 {
 }
 
 .titres {
-    display: inline;
     font-size: 54px;
 }
 
@@ -153,7 +153,7 @@ h2 {
     background-size: 100% 0.9em;
     background-position: 0em 0.7em;
     padding-right: 10px;
-    display: inline-block; 
+    display: inline-block;
 
 }
 
@@ -237,12 +237,6 @@ h2 {
 
 
 }
-
-.number0 {
-    transform: scaleX(2);
-
-}
-
 .colone {
     padding: 120px 0px 0px 0;
     display: flex;
@@ -258,7 +252,7 @@ h2 {
 .ligne4 {
     display: flex;
 
-    gap: 40px  ;
+    gap: 40px;
 }
 
 .textes1colone {
@@ -286,24 +280,19 @@ h2 {
 
 .team-titre {
     justify-items: center;
-    
-}
 
-.notreteam {
-    grid-column: auto;
-    background-color: aqua;
-    padding: 50px 60px;
 }
 
 .grid {
-   display: grid;
-   grid-template-columns: repeat(3, 519px);
-   grid-template-rows: repeat(2, 519px);
-   gap:61px 32px; 
-   padding: 114px 0 0 0;
-   
+    display: grid;
+    grid-template-columns: repeat(3, 519px);
+    grid-template-rows: repeat(2, 519px);
+    gap: 61px 32px;
+    padding: 114px 0 0 0;
+
 
 }
+
 .teamsection {
     text-align: center;
 }
@@ -321,13 +310,13 @@ h2 {
 }
 
 .itemgrid {
-    gap: 40px 0px 0px 0px ;
+    gap: 40px 0px 0px;
     text-align: center;
     margin-top: 88px;
 }
 
 .soulignementrose2 {
-    padding-right: 4px; 
+    padding-right: 4px;
     padding-left: 4px;
 }
 
@@ -336,9 +325,90 @@ h2 {
     display: flex;
     flex-direction: column;
     gap: 60px;
+    justify-content: center;
 }
 
 .petitmenu {
-    justify-content: space-between;
+    justify-content: center;
+    display: flex;
     gap: 60px;
+}
+
+.rosea {
+    background-image: linear-gradient(#FF5678, #FF5678);
+    padding: 4px;
+    color: white;
+}
+
+
+.grid22 {
+    display: grid;
+    height: 1376px;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: 3fr 2fr 1fr 4fr;
+    gap: 32px;
+}
+
+.grid22 div {
+    background-color: #FFEEF6;
+}
+
+#carrerose1 {
+    grid-area: 1 / 1 / 3 / 2;
+}
+
+#carrerose2 {
+    grid-area: 1 / 2 / 4 / 3
+}
+
+#carrerose4 {
+    grid-area: 2 / 3 / 4 / 4
+}
+
+#carrerose5 {
+    grid-area: 3 / 1 / 5 / 2
+}
+
+#carrerose6 {
+    grid-area: 4 / 2 / 5 / 4
+}
+
+.marginclass {
+    display: block;
+    margin: 0 auto;
+}
+
+.testimonial {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.box {
+    display: grid;
+    height: 555px;
+    width: 412px;
+    border-radius: 150px;
+    border: 1px solid #949494;
+    justify-items: center;
+    gap: 24px;
+}
+
+
+
+.lesexperiences {
+    display: flex;
+    justify-content: space-between;
+    gap: 32px;
+}
+
+.testimonialtitle {
+    text-align: center;
+    padding: 100px 0 158px 0 ;
+}
+
+.fleches {
+    display: flex;
+    justify-content: space-between;
+
 }
