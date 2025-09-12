@@ -14,9 +14,6 @@ a,
 h1,
 h2,
 h3,
-h4,
-h5,
-h6,
 p {
     text-decoration: none;
     color: #020E35;
@@ -237,6 +234,7 @@ h2 {
 
 
 }
+
 .colone {
     padding: 120px 0px 0px 0;
     display: flex;
@@ -385,30 +383,69 @@ h2 {
 }
 
 .box {
-    display: grid;
+    padding: 60px 0 0 0;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
     height: 555px;
     width: 412px;
     border-radius: 150px;
     border: 1px solid #949494;
-    justify-items: center;
-    gap: 24px;
+    gap: 24px 46px;
 }
 
-
-
 .lesexperiences {
+    width: 2236px;
+    height: 672px;
+
     display: flex;
-    justify-content: space-between;
+    justify-content: center;
     gap: 32px;
 }
 
 .testimonialtitle {
     text-align: center;
-    padding: 100px 0 158px 0 ;
+    padding: 100px 0 158px 0;
 }
 
 .fleches {
     display: flex;
     justify-content: space-between;
 
+}
+
+.Contacts {
+    padding: 60px 0 40px 0;
+
+
+}
+
+.menu-contact {
+    display: flex;
+    justify-content: space-between;
+}
+
+.rose {
+    border: 1px solid #020E35;
+    border-radius: 10px;
+    justify-content: space-between;
+    background-color: #FFEEF6;
+    width: 656px;
+    height: 70px;
+}
+
+.rose2 {
+    width: 656px;
+    height: 200px;
+}
+
+.message-contact {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    padding: 40px 0 0 0;
+}
+
+.rondrosep {
+    padding: 117px 0 0 0;
 }
