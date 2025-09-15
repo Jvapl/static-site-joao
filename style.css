@@ -300,6 +300,13 @@ h2 {
     width: 519px;
     border-radius: 50px;
     border: 1px solid #BBBBBB;
+    transition: f 0.5s ease;
+
+}
+
+.item:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
 
 }
 
@@ -383,7 +390,7 @@ h2 {
 }
 
 .box {
-    padding: 60px 0 0 0;
+    padding: 60px 80px 0 80px;
     align-items: center;
     display: flex;
     flex-direction: column;
@@ -391,17 +398,29 @@ h2 {
     width: 412px;
     border-radius: 150px;
     border: 1px solid #949494;
-    gap: 24px 46px;
+    gap: 24px;
+    transition: transform 0.5s ease;
+    box-sizing: border-box;
+    text-align: center;
+
+}
+
+.box:hover {
+    transform: scale(1.15);
 }
 
 .lesexperiences {
-    width: 2236px;
     height: 672px;
-
     display: flex;
     justify-content: center;
     gap: 32px;
 }
+
+.noms {
+    font-size: 14px;
+}
+
+.experiencess {}
 
 .testimonialtitle {
     text-align: center;
@@ -512,9 +531,7 @@ h2 {
     top: 0px;
     left: -55px;
     z-index: -1;
-    padding: 10170px 0px 0px 0px;
-    display: flex;
-    justify-content: space-between;
+    padding: 10155px 0px 0px 0px;
 }
 
 .padding2 {
@@ -522,5 +539,7 @@ h2 {
 }
 
 .adroite {
-    padding: 0 0 0 1465px;
+    left: 1440px;
+    z-index: -1;
+    position: absolute;
 }
