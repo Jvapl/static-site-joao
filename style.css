@@ -308,7 +308,7 @@ h2 {
 }
 
 .itemgrid {
-    gap: 40px 0px 0px;
+    gap: 40px 0 0;
     text-align: center;
     margin-top: 88px;
 }
@@ -448,4 +448,79 @@ h2 {
 
 .rondrosep {
     padding: 117px 0 0 0;
+}
+
+.services {
+    display: flex;
+    flex-direction: column;
+    gap: 16px;
+}
+
+.moyendecontact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
+}
+
+.adress {
+    gap: 16px;
+}
+
+.ta20 {
+    font-size: 20px;
+}
+
+.ta14 {
+    font-size: 14px;
+}
+
+.findelapage {
+    display: flex;
+    justify-content: space-between;
+}
+
+.reseau {
+    display: flex;
+    justify-content: space-between;
+    gap: 40px;
+    height: 51px;
+    padding: 16px 0
+}
+
+.barredefin {
+    display: flex;
+    background-color: #020E35;
+    padding: 32px 150px;
+    justify-content: space-between;
+}
+
+.textefinal {
+    display: flex;
+    color: #FFFFFF;
+
+}
+
+.jsp {
+    display: flex;
+    justify-content: space-between;
+    gap: 60px;
+}
+
+.findelapage2 {
+    position: absolute;
+    top: 0px;
+    left: -55px;
+    z-index: -1;
+    padding: 10170px 0px 0px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.padding2 {
+    padding: 100px 150px 60px;
+}
+
+.adroite {
+    padding: 0 0 0 1465px;
 }
