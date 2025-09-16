@@ -1,13 +1,11 @@
 body {
     margin: 0px;
+    overflow-x: hidden;
 }
 
 h1 {
     font-size: 76px;
     line-height: 110px;
-
-
-
 }
 
 a,
@@ -24,12 +22,10 @@ p {
 
 p {
     font-size: 18px;
-
 }
 
 h2 {
     font-size: 28px;
-
 }
 
 .logozzeb {
@@ -62,7 +58,6 @@ h2 {
     display: flex;
     align-items: center;
     gap: 60px;
-
 }
 
 .menu-elements a:hover {
@@ -86,7 +81,6 @@ h2 {
     padding: 24px 40px;
     font-family: Merriweather, serif;
     font-size: 16px;
-
 }
 
 .home-texts {
@@ -95,8 +89,6 @@ h2 {
     gap: 56px;
     width: 548px;
     font-family: Merriweather;
-
-
 }
 
 .home-content {
@@ -126,12 +118,10 @@ h2 {
 
 .photocafe {
     border-radius: 200px;
-
 }
 
 .texthome {
     display: flex;
-
 }
 
 .titres {
@@ -151,12 +141,10 @@ h2 {
     background-position: 0em 0.7em;
     padding-right: 10px;
     display: inline-block;
-
 }
 
 .margesoulignement {
     background-position: 0.1em 0.7em;
-
 }
 
 .home-page {
@@ -169,7 +157,6 @@ h2 {
     flex-direction: column;
     gap: 60pX;
     width: 517px;
-
 }
 
 .learn {
@@ -177,15 +164,12 @@ h2 {
     gap: 63px;
 }
 
-
-
 .videos {
     display: flex;
     width: 212px;
     height: 68px;
     flex-direction: row;
     gap: 24px;
-
 }
 
 
@@ -205,12 +189,10 @@ h2 {
 .videos-2 {
     position: relative;
     display: flex;
-
 }
 
 .rond-rose {
     display: block;
-
 }
 
 .Thingsweenjoy {
@@ -231,8 +213,6 @@ h2 {
     color: transparent;
     -webkit-text-stroke: 1px #626980;
     font-size: 64px;
-
-
 }
 
 .colone {
@@ -273,12 +253,10 @@ h2 {
 
 .deuxiemecolone {
     display: flex;
-
 }
 
 .team-titre {
     justify-items: center;
-
 }
 
 .grid {
@@ -287,8 +265,6 @@ h2 {
     grid-template-rows: repeat(2, 519px);
     gap: 61px 32px;
     padding: 114px 0 0 0;
-
-
 }
 
 .teamsection {
@@ -300,14 +276,12 @@ h2 {
     width: 519px;
     border-radius: 50px;
     border: 1px solid #BBBBBB;
-    transition: f 0.5s ease;
-
+    transition: transform 0.5s ease;
 }
 
 .item:hover {
     transform: scale(1.05);
     box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
-
 }
 
 .texteenjoy {
@@ -315,7 +289,7 @@ h2 {
 }
 
 .itemgrid {
-    gap: 40px 0 0;
+    gap: 40px;
     text-align: center;
     margin-top: 88px;
 }
@@ -344,7 +318,6 @@ h2 {
     padding: 4px;
     color: white;
 }
-
 
 .grid22 {
     display: grid;
@@ -390,37 +363,55 @@ h2 {
 }
 
 .box {
-    padding: 60px 80px 0 80px;
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    height: 555px;
-    width: 412px;
+    padding: 60px 80px;
     border-radius: 150px;
     border: 1px solid #949494;
     gap: 24px;
-    transition: transform 0.5s ease;
-    box-sizing: border-box;
+    transition: width, height, padding 0.5s ease;
     text-align: center;
+    box-sizing: border-box;
+    height: 555px;
+    align-self: center;
+}
+
+
+
+.experience-name {
+    margin: 40px 0 6px 0;
 
 }
 
 .box:hover {
-    transform: scale(1.15);
+    padding: 130px 40px 130px 40px;
+    min-width: 460px;
+    height: 672px;
+}
+
+.stars {
+    padding: 24px 0 0 0;
 }
 
 .lesexperiences {
-    height: 672px;
     display: flex;
     justify-content: center;
     gap: 32px;
+    height: 672px;
 }
 
 .noms {
     font-size: 14px;
 }
 
-.experiencess {}
+.experiencess {
+    display: flex;
+    margin: 24px 0;
+    display: flex;
+    flex-direction: column;
+}
+
+.center {
+    align-self: center;
+}
 
 .testimonialtitle {
     text-align: center;
@@ -430,13 +421,10 @@ h2 {
 .fleches {
     display: flex;
     justify-content: space-between;
-
 }
 
 .Contacts {
     padding: 60px 0 40px 0;
-
-
 }
 
 .menu-contact {
@@ -517,7 +505,6 @@ h2 {
 .textefinal {
     display: flex;
     color: #FFFFFF;
-
 }
 
 .jsp {
@@ -529,9 +516,9 @@ h2 {
 .findelapage2 {
     position: absolute;
     top: 0px;
-    left: -55px;
+    left: -47px;
     z-index: -1;
-    padding: 10155px 0px 0px 0px;
+    padding: 10205px 0px 0px 0px;
 }
 
 .padding2 {
